@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="name "/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/initial_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="initial value "/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/current_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="current value "/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/comment_size"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment "/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save" />
+        <Button
+            android:id="@+id/resetBtn"
+            android:text="Reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="resetOnClick"
+            />
+
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="increase1"
+            android:text="+" />
+        <Button
+            android:id="@+id/decrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="decrease1"
+            android:text="-" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">rmeng1-CountBook</string>
+    <string name="title_activity_create_record">CreateRecordActivity</string>
+</resources>
